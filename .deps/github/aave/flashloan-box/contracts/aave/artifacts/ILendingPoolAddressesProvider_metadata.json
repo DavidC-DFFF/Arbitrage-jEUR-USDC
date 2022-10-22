@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getLendingPool",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLendingPoolCore",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "ILendingPoolAddressesProvider interface",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "provides the interface to fetch the LendingPoolCore address",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/github/aave/flashloan-box/contracts/aave/ILendingPoolAddressesProvider.sol": "ILendingPoolAddressesProvider"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/github/aave/flashloan-box/contracts/aave/ILendingPoolAddressesProvider.sol": {
+			"keccak256": "0x6c92630bf2e9c2daed9976ece3b50b46308f37348237264c80dbd1f36e1beeea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b753c322bb0043c79850ac0edea21de0aced423320d2d7911f030c744caa6325",
+				"dweb:/ipfs/QmSTDeo9r7oNoBvLndFq7T6MuEzN87yxnAPuri4FcwsYoA"
+			]
+		}
+	},
+	"version": 1
+}
